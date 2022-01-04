@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "167992335190",
+    "project_id": "runstoreapp",
+    "storage_bucket": "runstoreapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167992335190:android:6e18e4d5e5a0334a35d4f7",
+        "android_client_info": {
+          "package_name": "com.example.admobdemor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167992335190-da9tq83iqrjj6ksq3fh81tl1t00uvoue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWzFrXX5ch8dQtyw4OsylBguUVgmvDL4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167992335190-da9tq83iqrjj6ksq3fh81tl1t00uvoue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-1579765449468517~1116406477"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167992335190:android:defb54f128de520a35d4f7",
+        "android_client_info": {
+          "package_name": "com.example.runstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167992335190-da9tq83iqrjj6ksq3fh81tl1t00uvoue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWzFrXX5ch8dQtyw4OsylBguUVgmvDL4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167992335190-da9tq83iqrjj6ksq3fh81tl1t00uvoue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167992335190:android:3c47986d381bdc3635d4f7",
+        "android_client_info": {
+          "package_name": "com.example.runstoreadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167992335190-da9tq83iqrjj6ksq3fh81tl1t00uvoue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWzFrXX5ch8dQtyw4OsylBguUVgmvDL4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167992335190-da9tq83iqrjj6ksq3fh81tl1t00uvoue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
