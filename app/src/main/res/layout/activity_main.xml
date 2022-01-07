@@ -1,45 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:gravity="center"
     tools:context=".MainActivity">
 
-    <com.google.android.gms.ads.AdView
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="Testing AdMob Types"
+        android:textSize="30sp" />
+
+    <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
         ads:adSize="BANNER"
         ads:adUnitId="ca-app-pub-3940256099942544/6300978111" />
 
 
     <LinearLayout
-        android:layout_marginTop="40dp"
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
 
         <Button
+            android:id="@+id/btnBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_margin="14dp"
             android:layout_weight="1"
-            android:id="@+id/btnBanner"
-            android:text="banner ad"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:text="banner ad" />
 
         <Button
-           android:layout_margin="14dp"
-            android:layout_weight="1"
             android:id="@+id/btnInterstitial"
-            android:text="interstitial ad"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_margin="14dp"
+            android:layout_weight="1"
+            android:text="interstitial ad" />
 
 
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnNative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="14dp"
+            android:layout_weight="1"
+            android:text="native ad" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="14dp"
+            android:layout_weight="1"
+            android:text="ad" />
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.nativead.NativeAdView
+        android:id="@+id/fluid_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        ads:adSize="MEDIUM_RECTANGLE"
+        ads:adUnitId="ca-app-pub-3940256099942544/2247696110" />
 
 </LinearLayout>
