@@ -11,7 +11,7 @@ import com.google.android.gms.ads.*
 import com.google.android.gms.ads.nativead.NativeAdView
 import java.util.*
 
-
+///
 class MainActivity : AppCompatActivity() {
     private var mAdView: AdView? = null
     private var btnBanner: Button? = null
